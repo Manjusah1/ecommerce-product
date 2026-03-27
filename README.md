@@ -1,6 +1,58 @@
-# EcommerceUi
+# Dynamic E-commerce Product UI (Angular)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.3.
+## 🎯 Objective
+
+Built a frontend-heavy **E-commerce Product UI** using Angular that allows users to browse, filter, search, and interact with products in a modern, responsive interface.
+
+The primary focus is:
+
+* Clean and scalable UI architecture
+* Component-driven design
+* Reactive UI updates
+* Minimal backend (mock JSON / static data)
+
+---
+
+## 🛠️ Tech Stack
+
+* Angular (latest version)
+* TypeScript
+* HTML5 + SCSS
+* Angular Material (UI components)
+* RxJS (reactive programming)
+* Data Source: Static JSON / Mock API
+
+---
+
+## 📁 Project Structure
+
+Create the following structure:
+
+src/
+├── app/
+│    ├── components/
+│    │    ├── navbar/
+│    │    ├── product-list/
+│    │    ├── product-card/
+│    │    ├── product-detail/
+│    │    ├── filter-panel/
+│    │    ├── cart-sidebar/
+│    │
+│    ├── services/
+│    │    ├── product.service.ts
+│    │    ├── cart.service.ts
+│    │
+│    ├── models/
+│    │    ├── product.model.ts
+│    │
+│    ├── pages/
+│    │    ├── home/
+│    │    ├── product/
+│    │
+│    ├── app-routing.module.ts
+│    ├── app.component.ts
+
+---
 
 ## Development server
 
@@ -51,9 +103,3 @@ For end-to-end (e2e) testing, run:
 ```bash
 ng e2e
 ```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
