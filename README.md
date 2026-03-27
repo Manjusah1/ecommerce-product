@@ -27,7 +27,7 @@ The primary focus is:
 ## 📁 Project Structure
 
 Create the following structure:
-
+```
 src/
 ├── app/
 │    ├── components/
@@ -51,7 +51,7 @@ src/
 │    │
 │    ├── app-routing.module.ts
 │    ├── app.component.ts
-
+```
 ---
 
 ## Development server
